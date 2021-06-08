@@ -22,6 +22,7 @@ $ git clone    https://github.com/nikicrk/niki.mbf
 #### Crack run
 ```bash
 $ $ cd niki.mbf
+$ pip2 install requests
 $ python2 niki.mbf
 $ 
 ```
